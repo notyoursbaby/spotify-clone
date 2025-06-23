@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.glass-effect {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hover-scale {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.play-button-overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.group:hover .play-button-overlay {
+  opacity: 1;
+}
+
+.sidebar-nav-item {
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar-nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.progress-bar {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.progress-bar:hover .progress-thumb {
+  opacity: 1;
+}
+
+.song-row {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.song-row:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
