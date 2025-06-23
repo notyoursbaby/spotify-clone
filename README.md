@@ -29,3 +29,32 @@ A modern, feature-rich music streaming application inspired by Spotify, built wi
 - **Local Storage** - Persistent user preferences
 - **Audio Integration** - HTML5 audio with custom controls
 - **Performance Optimized** - Fast loading and smooth interactions
+
+📱 Usage
+Navigation
+
+Home - Discover featured playlists and recommendations
+Search - Find songs by title, artist, or genre
+Library - Access your personal playlists and liked songs
+
+Player Controls
+
+Click any song to start playing
+Use bottom player for playback control
+Like songs using the heart button
+Adjust volume and seek through tracks
+Enable shuffle and repeat modes
+
+Search & Filter
+
+Use the search bar to find specific songs
+Filter by genre using the genre buttons
+Results update in real-time
+
+🛠 Technologies Used
+
+React 18 - Modern React with hooks
+Tailwind CSS - Utility-first CSS framework
+Lucide React - Beautiful, customizable icons
+HTML5 Audio - Native audio playback
+Local Storage - Client-side data persistence
